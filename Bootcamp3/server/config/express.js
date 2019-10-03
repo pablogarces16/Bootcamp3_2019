@@ -54,7 +54,7 @@ module.exports.init = function() {
    */
    //res.sendFile(path.resolve(...));
 
-   res.sendFile(path.resolve('/client','index.html'));
+   res.sendFile(path.resolve('client/index.html'));
   });
 
   return app;
